@@ -1,0 +1,48 @@
+#tout {
+  background-color: rgb(var(--purple));
+  position: relative;
+  width: 90vw;
+  aspect-ratio: 16/9;
+}
+
+#tout .batiment {
+  position: absolute;
+  background-color: rgb(var(--blue-matte));
+  padding: 5%;
+}
+
+#tout #un {
+  top: 5%;
+  left: 85%;
+}
+#tout #deux {
+  top: 20%;
+  left: 10%;
+}
+#tout #trois {
+  top: 50%;
+  left: 20%;
+}
+#tout #quatre {
+  top: 60%;
+  left: 80%;
+}
+
+#tout .batiment .texte {
+  position: fixed;
+  display: flex;
+}
+
+#tout .batiment .texte_hide {
+  font-size: 0;
+}
+
+#tout .batiment .texte_show {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  left: 0;
+  /* text-align: center; */
+  font-size: 2em;
+}
